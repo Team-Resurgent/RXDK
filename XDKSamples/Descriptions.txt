@@ -7,6 +7,9 @@ Original Xbox empty application.
 Original Xbox DXT
 Original Xbox sample DXT plugin.
 
+Original Xbox Lib
+Original Xbox sample Lib.
+
 
     <LanguageTag>C++</LanguageTag>
     <PlatformTag>xbox</PlatformTag>
