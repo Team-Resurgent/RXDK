@@ -1,0 +1,13 @@
+Original Xbox Game
+Original Xbox sample application to render a triangle.
+
+Original Xbox Empty
+Original Xbox empty application.
+
+Original Xbox DXT
+Original Xbox sample DXT plugin.
+
+
+    <LanguageTag>C++</LanguageTag>
+    <PlatformTag>xbox</PlatformTag>
+    <ProjectTypeTag>games</ProjectTypeTag>
