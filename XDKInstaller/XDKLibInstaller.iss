@@ -6,7 +6,7 @@
 ChangesEnvironment=true
 AppId=RXDK
 AppName=RXDK
-AppVersion=1.0
+AppVersion=1.1
 WizardStyle=classic
 DefaultDirName={autopf}\RXDK
 DefaultGroupName=RXDK
@@ -117,6 +117,8 @@ Source: "Files\xbox\*"; DestDir: "{app}\xbox\"; Flags: recursesubdirs
 
 [Icons]
 Name: "{group}\RXDK\Xbox SDK Documentation"; Filename: "{app}\doc\XboxSDK.chm"
+Name: "{group}\RXDK"; Filename: "{app}\bin\xbsetip.exe"
+Name: "{group}\RXDK"; Filename: "{app}\bin\xbwatson.exe"
 
 [Run]
 Filename: "{#VSIXInstallerPath}"; Parameters: """{app}\extensions\RXDK.Samples.vsix"""; Flags: waituntilterminated; Check: InstallerExists()
