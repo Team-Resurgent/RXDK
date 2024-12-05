@@ -1,3 +1,10 @@
+<div align="center">
+
+[![Download](https://img.shields.io/badge/download-latest-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Team-Resurgent/RXDK/releases/latest)
+
+</div>
+
+---
 
 # RXDK: Modern Development for the Original Xbox
 
@@ -8,10 +15,10 @@
 ## 🚀 Features
 
 - **Modern Development Environment**: Compile Xbox applications using Visual Studio 2019 and beyond.
-- **Simplified Installation**: Automates the setup process for the XDK (5933) on modern Windows platforms.
+- **Simplified Installation**: Automates the setup process for the XDK on modern Windows platforms.
 - **Open Source**: Developed collaboratively by the Xbox-scene community.
 - **Enhanced Compatibility**: Eliminates the need for legacy systems like Windows XP and Visual Studio 2003 .NET.
-
+- **Existing Tools Support**: Adds Support and work arounds for debugging tools such as Xbox Watson Etc
 ---
 
 ## 🚧 Limitations and Disclaimer
@@ -20,8 +27,8 @@ Please note the following limitations and important information:
 
 - **Debugging Not Yet Supported**: Features such as adding breakpoints and debugging through Visual Studio are not currently functional.
 - **No Deployment via Visual Studio**: File transfer to the Xbox cannot be done using the Visual Studio deploy option. Instead, you will need to manually transfer files to your Xbox or use an emulator such as **Xemu** for testing.
-- **XDKSetup5933 Required**: The **official XDKSetup5933** is not included with this tool. Users must provide their own copy of the installer. Other versions of XDKSetup may work but have not been thoroughly tested. This example was tested specifically with version 5933.
-- **Disclaimer**: We cannot and will not be held liable for where or how you obtain the XDKSetup5933 installer. Additionally, we will not provide further instructions on obtaining it.
+- **XDKSetup5849.17 Recommended**: The **official XDKSetup** is not included with this tool. Users must provide their own copy of the installer. Other versions of XDKSetup may work but have not been thoroughly tested. This example was tested specifically with version 5849.17.
+- **Disclaimer**: We cannot and will not be held liable for where or how you obtain the XDKSetup installer. Additionally, we will not provide further instructions on obtaining it.
 - **Early Development Stage**: RXDK is in its early stages and may contain bugs or missing features. Community contributions are encouraged to enhance its functionality and stability.
 
 ---
@@ -52,7 +59,7 @@ Once installed, you can compile and build Original Xbox applications directly in
 ## 🧰 Technologies Used
 
 - **Microsoft Visual Studio**: 2019 and newer versions.
-- **Xbox Development Kit (XDK)**: Official XDK (5933) installer.
+- **Xbox Development Kit (XDK)**: Official XDK installer.
 - **Windows OS**: Modern versions, such as Windows 10/11.
 
 ---
@@ -71,17 +78,18 @@ For larger contributions, please open an issue to discuss your ideas with the ma
 
 ## 📸 Screenshots
 
-<img src="Screenshots/image.png" height="400">
-<img src="Screenshots/image1.png" height="400">
-<img src="Screenshots/image2.png" height="400">
-<img src="Screenshots/image3.png" height="400">
-<img src="Screenshots/image4.png" height="400">
-<img src="Screenshots/image5.png" height="400">
-<img src="Screenshots/image6.png" height="400">
-<img src="Screenshots/image7.png" height="400">
-<img src="Screenshots/image8.png" height="400">
-<img src="Screenshots/image9.png" height="400">
-<img src="Screenshots/image10.png" height="400">
+![Screenshot 1](Screenshots/image.png)
+![Screenshot 2](Screenshots/image1.png)
+![Screenshot 3](Screenshots/image2.png)
+![Screenshot 4](Screenshots/image3.png)
+![Screenshot 5](Screenshots/image4.png)
+![Screenshot 6](Screenshots/image5.png)
+![Screenshot 7](Screenshots/image6.png)
+![Screenshot 8](Screenshots/image7.png)
+![Screenshot 9](Screenshots/image8.png)
+![Screenshot 10](Screenshots/image9.png)
+![Screenshot 11](Screenshots/image10.png)
+![Screenshot 12](Screenshots/image11.png)
 
 ---
 
@@ -107,3 +115,12 @@ This project wouldn't have been possible without the support and collaboration o
 ---
 
 Happy coding! 🎮
+
+<div align="center">
+
+![GitHub contributors](https://img.shields.io/github/contributors/Team-Resurgent/RXDK?style=flat-square)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/Team-Resurgent/RXDK?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/Team-Resurgent/RXDK?style=flat-square)
+![GitHub all releases](https://img.shields.io/github/downloads/Team-Resurgent/RXDK/total?style=flat-square)
+
+</div>
