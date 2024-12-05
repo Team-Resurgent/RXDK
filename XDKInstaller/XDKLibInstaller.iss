@@ -6,7 +6,7 @@
 ChangesEnvironment=true
 AppId=RXDK
 AppName=RXDK
-AppVersion=1.1
+AppVersion=1.2
 WizardStyle=classic
 DefaultDirName={autopf}\RXDK
 DefaultGroupName=RXDK
@@ -117,8 +117,16 @@ Source: "Files\xbox\*"; DestDir: "{app}\xbox\"; Flags: recursesubdirs
 
 [Icons]
 Name: "{group}\RXDK\Xbox SDK Documentation"; Filename: "{app}\doc\XboxSDK.chm"
-Name: "{group}\RXDK"; Filename: "{app}\bin\xbsetip.exe"
-Name: "{group}\RXDK"; Filename: "{app}\bin\xbwatson.exe"
+Name: "{group}\RXDK\Set Xbox IP"; Filename: "{app}\xbox\bin\xbsetip.exe"
+Name: "{group}\RXDK\Xbox Neighborhood"; Filename: "{app}\xbox\bin\RXDKNeighborhood\RXDKNeighborhood.exe"
+Name: "{group}\RXDK\Audio\DSP Builder Tool"; Filename: "{app}\xbox\bin\DSPBuilder.exe"
+Name: "{group}\RXDK\Audio\Xbox Audio Creation Tool"; Filename: "{app}\xbox\bin\XACT.exe"
+Name: "{group}\RXDK\Debugging\Api Monitor"; Filename: "{app}\xbox\bin\xam.exe"
+Name: "{group}\RXDK\Debugging\Api Monitor SE"; Filename: "{app}\xbox\bin\xamse.exe"
+Name: "{group}\RXDK\Debugging\Xbox Watson"; Filename: "{app}\xbox\bin\xbwatson.exe"
+Name: "{group}\RXDK\Graphics\Pixel Shader Debugger"; Filename: "{app}\xbox\bin\xbpscapture.exe"
+Name: "{group}\RXDK\Graphics\Vertex Shader Debugger"; Filename: "{app}\xbox\bin\xbvscapture.exe"
+Name: "{group}\RXDK\Graphics\Xray Debug Tool"; Filename: "{app}\xbox\bin\xbxray.exe"
 
 [Run]
 Filename: "{#VSIXInstallerPath}"; Parameters: """{app}\extensions\RXDK.Samples.vsix"""; Flags: waituntilterminated; Check: InstallerExists()
