@@ -53,7 +53,7 @@ begin
       XDKCopyPage.Animate;
       ExtractTemporaryFile('7za.exe');
       XDKTemp := ExpandConstant('{tmp}\XDKTemp');
-      if Exec(ExpandConstant('{tmp}\7za.exe'), 'x ""' + XDKSetupLocation + '"" -aoa -o""' + XDKTemp + '""', '', SW_HIDE, ewWaitUntilTerminated, ResultCode) then
+      if Exec(ExpandConstant('{tmp}\7za.exe'), 'x "' + XDKSetupLocation + '" -aoa -o"' + XDKTemp + '"', '', SW_HIDE, ewWaitUntilTerminated, ResultCode) then
       begin 
         if DirExists(XDKTemp) then
         begin
