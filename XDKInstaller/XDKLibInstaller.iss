@@ -118,7 +118,7 @@ Source: "Files\xbox\*"; DestDir: "{app}\xbox\"; Flags: recursesubdirs
 [Icons]
 Name: "{group}\RXDK\Xbox SDK Documentation"; Filename: "{app}\doc\XboxSDK.chm"
 Name: "{group}\RXDK\Set Xbox IP"; Filename: "{app}\xbox\bin\xbsetip.exe"
-Name: "{group}\RXDK\Xbox Neighborhood"; Filename: "{app}\xbox\bin\RXDKNeighborhood\RXDKNeighborhood.exe"
+Name: "{group}\RXDK\Xbox Neighborhood"; Filename: "{app}\xbox\bin\rxdkneighborhood.exe"
 Name: "{group}\RXDK\Audio\DSP Builder Tool"; Filename: "{app}\xbox\bin\DSPBuilder.exe"
 Name: "{group}\RXDK\Audio\Xbox Audio Creation Tool"; Filename: "{app}\xbox\bin\XACT.exe"
 Name: "{group}\RXDK\Debugging\Api Monitor"; Filename: "{app}\xbox\bin\xam.exe"
