@@ -13,6 +13,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XDKDxt", "XDKDxt\XDKDxt.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XDKLib", "XDKLib\XDKLib.vcxproj", "{EF73A5DF-B372-4E1C-BCB4-3DA1A4002BDD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D3A9D36B-BFB5-448A-9DC0-596ED75D0598}"
+	ProjectSection(SolutionItems) = preProject
+		Descriptions.txt = Descriptions.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplatePacker", "TemplatePacker\TemplatePacker.csproj", "{10B79F58-908C-4B47-9B38-50E4DA658968}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +90,18 @@ Global
 		{EF73A5DF-B372-4E1C-BCB4-3DA1A4002BDD}.Release|arm64.Build.0 = Release|Win32
 		{EF73A5DF-B372-4E1C-BCB4-3DA1A4002BDD}.Release|x86.ActiveCfg = Release|Win32
 		{EF73A5DF-B372-4E1C-BCB4-3DA1A4002BDD}.Release|x86.Build.0 = Release|Win32
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|arm64.Build.0 = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Debug|x86.Build.0 = Debug|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|arm64.ActiveCfg = Release|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|arm64.Build.0 = Release|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|x86.ActiveCfg = Release|Any CPU
+		{10B79F58-908C-4B47-9B38-50E4DA658968}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

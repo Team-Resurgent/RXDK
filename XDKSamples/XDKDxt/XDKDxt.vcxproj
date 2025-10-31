@@ -20,7 +20,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{A1B96C8C-12DB-4E54-A024-6F342B4B2294}</ProjectGuid>
-    <RootNamespace>Triangle</RootNamespace>
+    <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>XDKDxt</ProjectName>
   </PropertyGroup>

@@ -20,7 +20,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{0F232E4B-ACC3-48E1-85D3-A673F8D6193F}</ProjectGuid>
-    <RootNamespace>Triangle</RootNamespace>
+    <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>XDKEmpty</ProjectName>
   </PropertyGroup>

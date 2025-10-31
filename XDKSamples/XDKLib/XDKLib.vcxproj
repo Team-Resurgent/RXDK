@@ -14,7 +14,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{EF73A5DF-B372-4E1C-BCB4-3DA1A4002BDD}</ProjectGuid>
-    <RootNamespace>Triangle</RootNamespace>
+    <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>XDKLib</ProjectName>
   </PropertyGroup>

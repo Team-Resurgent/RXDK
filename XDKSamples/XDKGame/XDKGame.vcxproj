@@ -13,8 +13,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e6c85599-271a-4894-a6a5-8c42f2029852}</ProjectGuid>
-    <RootNamespace>Triangle</RootNamespace>
+    <ProjectGuid>{E6C85599-271A-4894-A6A5-8C42F2029852}</ProjectGuid>
+    <RootNamespace>XboxNamespace</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>XDKGame</ProjectName>
   </PropertyGroup>
