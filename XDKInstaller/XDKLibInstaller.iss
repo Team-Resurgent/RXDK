@@ -6,7 +6,7 @@
 ChangesEnvironment=true
 AppId=RXDK
 AppName=RXDK
-AppVersion=1.4.1
+AppVersion=1.4.2
 WizardStyle=classic
 DefaultDirName={autopf}\RXDK
 DefaultGroupName=RXDK
