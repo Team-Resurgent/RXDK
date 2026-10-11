@@ -1,5 +1,13 @@
 <div align="center">
 
+This is now archived, please use modern RXDK for VS20XX or VSCode
+
+https://github.com/Team-Resurgent/RXDK-VS20XX
+
+https://github.com/Team-Resurgent/RXDK-VSCODE
+
+=============================================
+
 [![Download](https://img.shields.io/badge/download-latest-brightgreen.svg?style=for-the-badge&logo=github)](https://github.com/Team-Resurgent/RXDK/releases/latest)
 
 </div>
